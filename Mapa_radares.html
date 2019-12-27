@@ -2,7 +2,7 @@
 <html>
 	<head> 
 		<meta charset="UTF-8"/>
-		<title>Visor cartográfico con los radares de España</title>
+		<title>Visor cartográfico de los radares de España</title>
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
 		integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
 		crossorigin=""/>
@@ -76,8 +76,8 @@
         <p>Se ha incorporado otro visor cartógrafico de radares de velocidad, con la posiblidad de diseñar rutas. Para poder visualizarlo, haz click en el enlace de abajo</p>
 
         <ul>
-            <li><a href="https://www.youtube.com/">Visor cartográfico web de radares con diseñador de rutas</a></li>
-            <li><a href="two-sidebars.html">Visor cartográfico web de radares de velocidad en España</a></li>
+            <li><a href="https://ferhd96.github.io/Visor_rutas_radares_de_velocidad/Visor_radares_rutas.html">Visor cartográfico web de radares con diseñador de rutas</a></li>
+            <li><a href="https://ferhd96.github.io/Visor_radares_de_velocidad/Mapa_radares.html">Visor cartográfico web de radares de velocidad en España</a></li>
         </ul>
 
         <p class="lorem">Gracias a la librería de código abierto de Leaflet se ha podido desarrollar dos visores cartográficos sobre 
@@ -88,7 +88,7 @@
 		</div>
 
 
-		<button id="helpbutton" role="button" class="btn btn-primary">Creador de rutas</button> 
+		<button id="helpbutton" role="button" class="btn btn-primary">Visor de creador de rutas</button> 
 		<script>
 				
 			<!-- Token -->
@@ -186,7 +186,7 @@
 			var button = new L.Control.Button(L.DomUtil.get('helpbutton'), { toggleButton: 'active' });
 			button.addTo(map);
 			button.on('click', function () {
-			    window.location.href = 'http://www.yourdomain.com'
+			    window.location.href = 'https://ferhd96.github.io/Visor_rutas_radares_de_velocidad/Visor_radares_rutas.html'
 			});
 			
 
